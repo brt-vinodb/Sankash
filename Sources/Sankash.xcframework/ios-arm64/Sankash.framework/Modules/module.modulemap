@@ -1,0 +1,11 @@
+framework module Sankash {
+  umbrella header "Sankash.h"
+
+  export *
+  module * { export * }
+}
+
+module Sankash.Swift {
+  header "Sankash-Swift.h"
+  requires objc
+}
